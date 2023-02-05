@@ -1,0 +1,14 @@
+{
+     "manifest_version": 3,
+     "version": "1.0",
+     "name": "Link Lab",
+     "action": {
+          "default_popup": "tracker.html",
+          "default_icon": "LOGO.png"
+     },
+     "permissions": [
+          "tabs",
+          "windows"
+     ],
+     "description": " Save links and use them whenever you want with Link Lab"
+}

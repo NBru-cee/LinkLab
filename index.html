@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Bruce NKUNDABAGENZI" />
+        <meta
+            name="description"
+            content="This is a chrome extension that helps you to keep your links so that you can easily track them"
+        />
+        <title id="main-title">Link Lab</title>
+        <link rel="stylesheet" href="tracker.css" />
+        <link rel="favicon" href="LOGO.png" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>LINK LAB</h1>
+            <input
+                type="text"
+                id="input-ele"
+                placeholder="Enter link.."
+                title="Enter your link's URL"
+            />
+            <div class="buttons">
+                <div class="save-buttons">
+                    <button id="save-btn">SAVE</button>
+                    <button id="save-tab-btn">SAVE TAB</button>
+                </div>
+                <div class="delete-buttons">
+                    <button id="delete-btn">DELETE</button>
+                    <button id="clear-btn">CLEAR</button>
+                </div>
+            </div>
+            <ul id="ul-ele"></ul>
+        </div>
+        <script src="tracker.js"></script>
+    </body>
+</html>
